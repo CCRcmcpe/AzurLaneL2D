@@ -13,13 +13,8 @@ class Viewer {
         this.selectCharacter = $(".selectCharacter");
         this.selectAnimation = $(".selectAnimation");
 
-        let stringCharacter = "<option>Select</option>";
-        for (let val in charData) {
-            stringCharacter+= '<option value="' + charData[val] + '">' + val + '</option>';
-        }
-        this.selectCharacter.html(stringCharacter);
-        this.selectCharacter.change((event) => {
-            if (event.target.selectedIndex == 0) {
+        this.selectCharacter.keypress((event) => {
+            if (event.keyCode != 13) {
                 return;
             }
             let name = event.target.value;

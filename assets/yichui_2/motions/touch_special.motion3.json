@@ -4,6 +4,7 @@
     "Duration": 9.0,
     "Fps": 30.0,
     "Loop": true,
+    "AreBeziersRestricted": true,
     "CurveCount": 147,
     "TotalSegmentCount": 1580,
     "TotalPointCount": 2646,
@@ -8063,11 +8064,11 @@
       "Value": ""
     },
     {
-      "Time": 8.5,
+      "Time": 0.0,
       "Value": ""
     },
     {
-      "Time": 0.0,
+      "Time": 8.5,
       "Value": ""
     }
   ]

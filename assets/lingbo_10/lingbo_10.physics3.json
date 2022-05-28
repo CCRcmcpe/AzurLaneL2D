@@ -1,10 +1,10 @@
 {
   "Version": 3,
   "Meta": {
-    "PhysicsSettingCount": 1,
+    "PhysicsSettingCount": 0,
     "TotalInputCount": 0,
     "TotalOutputCount": 0,
-    "VertexCount": 1,
+    "VertexCount": 0,
     "EffectiveForces": {
       "Gravity": {
         "X": 0,
@@ -15,42 +15,7 @@
         "Y": 0
       }
     },
-    "PhysicsDictionary": [
-      {
-        "Id": "PhysicsSetting1",
-        "Name": "Dummy1"
-      }
-    ]
+    "PhysicsDictionary": []
   },
-  "PhysicsSettings": [
-    {
-      "Id": "PhysicsSetting1",
-      "Input": [],
-      "Output": [],
-      "Vertices": [
-        {
-          "Position": {
-            "X": 0,
-            "Y": 0
-          },
-          "Mobility": 1,
-          "Delay": 1,
-          "Acceleration": 1,
-          "Radius": 0
-        }
-      ],
-      "Normalization": {
-        "Position": {
-          "Minimum": -10,
-          "Default": 0,
-          "Maximum": 10
-        },
-        "Angle": {
-          "Minimum": -10,
-          "Default": 0,
-          "Maximum": 10
-        }
-      }
-    }
-  ]
+  "PhysicsSettings": []
 }
